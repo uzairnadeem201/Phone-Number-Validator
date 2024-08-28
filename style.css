@@ -1,0 +1,83 @@
+html{
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#main-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px ;
+}
+#phone-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    height: 50%;
+    width: 15%;
+    border: 25px solid black;
+    border-radius: 30px;
+}
+#cam-back{
+    display: flex;
+    width: 100%;
+    height: 4%;
+    margin-bottom: 2%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+}
+#cam{
+    background-color: white;
+    width: 2%;
+    height: 50%;
+    border-radius: 100%;
+}
+#result{
+    height: 82%;
+    width: 90%;
+    margin: 5px 500px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+#footer{
+    display: flex;
+    background-color: black;
+    height: 5%;
+    width: 100%;
+    padding: 1%;
+    justify-content: center;
+}
+#label{
+    font-size: 1.5rem;
+    margin: 2%;
+    font-weight: bolder;
+}
+#user-input{
+    width: 50%;
+    height: 5%;
+}
+button{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
